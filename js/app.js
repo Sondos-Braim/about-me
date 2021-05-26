@@ -31,23 +31,25 @@ function question1(){
 }
 question1();
 
-
-let age = prompt('my age is 24!');
-//console.log(age);
-switch (age.toLowerCase()) {
-case 'yes':
-case 'y':
-  alert('correct my age is 24');
-  score++;
-  break;
-case 'no':
-case 'n':
-  alert('sorry i am 24');
-  break;
-default:
-  alert('please answer with yes or no to qustions');
-  break;
+function question2(){
+  let age = prompt('my age is 24!');
+  //console.log(age);
+  switch (age.toLowerCase()) {
+  case 'yes':
+  case 'y':
+    alert('correct my age is 24');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+    alert('sorry i am 24');
+    break;
+  default:
+    alert('please answer with yes or no to qustions');
+    break;
+  }
 }
+question2();
 
 let favouritColor = prompt('my favourite color is blue!');
 //console.log(favouritColor);
