@@ -11,5 +11,15 @@
  [Any Links you used as reference](#)
 
 **Reflections and Comments:**
+- This project was the most challenging for know 
+- I learned to use a lot of useful tools like 
+  - switch
+   - for loop
+    - if
+     - while loop
+      - array
 
-i did  guess game using switch tool 
+
+
+**describtion**
+ *“About Me” webpage that Includes quizzes about fun facts  gives the user some basic information about who i am and where i came from.*
