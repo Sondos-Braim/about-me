@@ -11,23 +11,25 @@ alert('hi,' + namea);
 
 alert('we will play aguessing game about me lets go');
 let score=0;
-let go = prompt('my name is bushra!');
-//console.log(go);
-switch (go.toLowerCase()) {
-case 'yes':
-case 'y':
-  alert('corect bushra is my name');
-  score++;
-  break;
-case 'no':
-case 'n':
-  alert('wrong my name is bushra');
-  break;
-default:
-  alert('please answer with yes or no to qustions');
-  break;
+function question1(){
+  let go = prompt('my name is bushra!');
+  //console.log(go);
+  switch (go.toLowerCase()) {
+  case 'yes':
+  case 'y':
+    alert('corect bushra is my name');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+    alert('wrong my name is bushra');
+    break;
+  default:
+    alert('please answer with yes or no to qustions');
+    break;
+  }
 }
-
+question1();
 
 
 let age = prompt('my age is 24!');
