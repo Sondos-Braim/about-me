@@ -14,7 +14,7 @@ let score=0;
 let go = prompt('my name is bushra!');
 //console.log(go);
 switch (go.toLowerCase()) {
-case ' yes':
+case 'yes':
 case 'y':
   alert('corect bushra is my name');
   score++;
@@ -33,7 +33,7 @@ default:
 let age = prompt('my age is 24!');
 //console.log(age);
 switch (age.toLowerCase()) {
-case ' yes':
+case 'yes':
 case 'y':
   alert('correct my age is 24');
   score++;
@@ -50,7 +50,7 @@ default:
 let favouritColor = prompt('my favourite color is blue!');
 //console.log(favouritColor);
 switch (favouritColor.toLowerCase()) {
-case ' yes':
+case 'yes':
 case 'y':
   alert('no,it is red');
 
@@ -69,7 +69,7 @@ default:
 let study = prompt('i have an abachoular degree in civil engineer');
 //console.log(study);
 switch (study.toLowerCase()) {
-case ' yes':
+case 'yes':
 case 'y':
   alert('yes i have it ');
   score++;
@@ -88,7 +88,7 @@ default:
 let travel = prompt('i like to travel ');
 //console.log(travel);
 switch (travel.toLowerCase()) {
-case ' yes':
+case 'yes':
 case 'y':
   alert('of course yes ');
   score++;
@@ -105,7 +105,7 @@ default:
 let game=prompt('i am agamer ');
 //console.log(game);
 switch (game.toLowerCase()) {
-case' yes':
+case 'yes':
 case 'y':
   alert('no i am not agamer ');
 
@@ -130,7 +130,7 @@ else if (game.toLowerCase === 'no' || game.toLowerCase === 'n') { alert('you are
 
 
 
-for (let i = 0; i < 4; i++) {
+/*for (let i = 0; i < 4; i++) {
   let questionSixes=Number(prompt('know, try to guess number that i had in my mind , to make it easire on you choose number from 0 to 6'));
   if (questionSixes===5) {
     alert('you are correct');
@@ -152,7 +152,44 @@ for (let i = 0; i < 4; i++) {
   alert (' try again');
 
 }
-alert ('the correct answer is 5');
+alert ('the correct answer is 5');*/
+
+
+
+
+for (let i = 0; i < 4; i++) {
+  let questionSixes=Number(prompt('know, try to guess number that i had in my mind , to make it easire on you choose number from 0 to 6'));
+  if (questionSixes===5) {
+    alert('you are correct');
+    score++;
+    break ;
+  }
+  else if (questionSixes>5){
+    alert ('your answer is higher than main');
+
+
+  }
+  else if (questionSixes<5)
+  {
+    alert ('your answer is lower than main');
+
+
+
+  }
+  else {
+    alert (' try again');
+
+  }
+
+
+  if ( i===3){
+    alert ('the correct answer is 5');
+  }
+
+
+
+}
+
 
 
 
